@@ -33,4 +33,21 @@ func main() {
 	for _, k := range keys {
 		fmt.Printf("key: %v, value: %v / ", k, barVal[k]) // reading key from keys and value from barVal
 	}
+
+	drinks := map[string]string{
+		"beer":   "bière",
+		"wine":   "vin",
+		"water":  "eau",
+		"coffee": "café",
+		"thea":   "thé"}
+	sdrinks := make([]string, len(drinks))
+	ix := 0
+	for eng := range drinks {
+		sdrinks[ix] = eng
+		ix++
+	}
+	sort.Strings(sdrinks)
+	for _, eng := range sdrinks {
+		fmt.Println(eng, ":", drinks[eng])
+	}
 }
