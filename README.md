@@ -1,9 +1,5 @@
 # V2 Go Kitchen Sink
 
-To craft a good README.md for your Go project [gokitchensink](https://github.com/phakhruddin/gokitchensink), it's important to cover the basics of what your repository is, how it can be used, and how developers can contribute or get started. Here’s a suggested structure for your README:
-
-* * *
-
 Go Kitchen Sink
 ===============
 
